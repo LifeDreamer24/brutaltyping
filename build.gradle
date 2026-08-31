@@ -45,7 +45,7 @@ def TARGETS = [
     '26.1.2':  [range: '~26.1',              fapi: '0.150.0+26.1.2',  modmenu: '18.0.0-beta.1', java: 25, legacy: false, loaderReq: '>=0.19.2',
                 overlays: ['gfx-extract', 'input-26',     'hud-extract', 'key-26',     'sound-26',     'nav-legacy']],
     '26.2':    [range: '~26.2',              fapi: '0.154.2+26.2',    modmenu: '20.0.0',        java: 25, legacy: false, loaderReq: '>=0.19.3',
-                overlays: ['gfx-extract', 'input-26',     'hud-extract', 'key-26',     'sound-26',     'nav-262']],
+                overlays: ['gfx-extract', 'input-26',     'hud-262',     'key-26',     'sound-26',     'nav-262']],
 ]
 
 def targetVer = (findProperty('target') ?: '26.1.2').toString()
